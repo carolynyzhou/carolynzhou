@@ -1,0 +1,517 @@
+html, body, div, span, p, a, del, em, img, ol, ul, li, fieldset, form, label {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+div {
+    width: 100%;
+    height: 100%;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+html, body {
+    line-height: 1;
+    min-height:100%;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: normal;
+}
+
+#intro {
+    width:80%;
+    left:50%;
+    top:1em;
+    margin-left:-40%;
+    text-align:center;
+    border-radius:1em;
+}
+
+#verse1 {
+    width: 100%;
+    left: 0%;
+    height: auto;
+    top: 100%;
+    text-align:center;
+    color: black;
+    line-height: 2;
+}
+
+#verse2 {
+    width: 100%;
+    height: auto;
+    top: 100%;
+    color: white;
+    font-weight: 300;
+    background-color: #1e1e1e;
+    padding: 10% 0 15% 0;
+}
+
+#verse2 p {
+    width: 20%;
+    font-size: 2em;
+    line-height: 1.5;
+}
+
+#third-1 {
+    margin-left: 10%;
+}
+#third-2 {
+    margin-left: 40%;
+}
+
+#third-3 {
+    margin-left: 70%;
+}
+
+.godsaid {
+    width: 100%;
+    color: white;
+    text-align: center;
+    line-height: 2;
+    font-weight: 300;
+    font-size: 125%;
+}
+
+#verse3 {
+    padding: 3em 0;
+}
+
+#light {
+    width: 100%;
+    text-align: center;
+    color: #1e1e1e;
+    font-size: 2em;
+    letter-spacing:2px;
+}
+
+#verse4and5 {
+    width: 30%;
+    left: 20%;
+    color: #666666;
+    line-height: 1.4;
+}
+
+#verse6-pt1 {
+
+}
+
+#verse6-pt2 {
+    width: 100%;
+    background-color: white;
+    color: black;
+    line-height: 1.4;
+    padding: 5% 0 100em 0;
+    text-align: center;
+}
+
+#verse7 {
+    width: 30%;
+    left: 20%;
+    color: #666666;
+    line-height: 1.4;
+}
+
+#anditwasso, #anditwasso-inverse {
+    width: 100%;
+    text-align: center;
+    color: #1e1e1e;
+    font-size: 2em;
+    letter-spacing:2px;
+}
+
+#anditwasso-inverse {
+    color: white;
+}
+
+#verse8 {
+    width: 30%;
+    left: 60%;
+    color: black;
+    line-height: 1.4;
+}
+
+#verse9 {
+    color: black;
+}
+
+#ground {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    background-color: #1e1e1e;
+    font-size: 2em;
+    letter-spacing:2px;
+    padding: 10% 0 50em 0;
+}
+
+#verse10 {
+    width: 30%;
+    left: 20%;
+    color: #e1e1e1;
+    line-height: 1.4;
+}
+
+#leaves1 {
+    display: block;
+    width: 50%;
+    height: 522px;
+    top: 100%;
+    background:url(../images/leaves.png) repeat 0 0;
+}
+
+#leaves2 {
+    display: block;
+    width: 50%;
+    left: 50%;
+    height: 600px;
+    top: 100%;
+    background:url(../images/leaves2.png) repeat 0 0;
+}
+
+#verse11 {
+    width: 30%;
+    left: 50%;
+    color: #fff;
+    line-height: 2;
+}
+
+#verse12 {
+    width: 30%;
+    left: 35%;
+    font-size: 80%;
+    color: #e1e1e1;
+    line-height: 1.5;
+    text-align: center;
+}
+
+#itwasgood, #itwasgood2 {
+    font-size: 5em;
+    color: #fff;
+    filter: blur(2px);
+    text-align: center;
+}
+
+#itwasgood2 {
+    width: 100%;
+    color: #000;
+    text-align: center;
+}
+
+#verse13 {
+    width: 60%;
+    left: 20%;
+    color: #e1e1e1;
+    line-height: 1.4;
+}
+
+#stars {
+    display: block;
+    width: 100%;
+    height: 500px;
+    top: 100%;
+    background:url(../images/stars.png) repeat 0 0;
+}
+
+#verse14, #verse14-pt2, #verse14-pt3, #verse15 {
+    width: 30%;
+    left: 20%;
+    color: #000;
+    line-height: 2;
+    text-align: left;
+    font-size: 100%;
+}
+
+#verse14-pt2 {
+    left: 40%;
+    width: 60%;
+}
+
+#verse14-pt3 {
+    left: 60%;
+}
+
+#verse15 {
+    left: 20%;
+    width: 100%;
+
+}
+
+#verse16-pt1, #verse16-pt2 {
+    width: 100%;
+    color: black;
+    padding: 25% 0% 25% 10%;
+    height: 100%;
+    background-color: (230, 230, 230, 1);
+    line-height: 1.5;
+}
+
+#verse16-pt2 {
+    width: 50%;
+    color: white;
+    background-color: #000;
+}
+
+#verse16-pt3 {
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+#verse17and18 {
+    width: 30%;
+    left: 20%;
+    color: #666;
+    line-height: 1.4;
+}
+
+#verse19 {
+    width: 50%;
+    color: #000;
+    left: 50%;
+}
+
+#verse20 {
+    color: black;
+}
+
+#fish, #fish-inverse {
+    display: block;
+    width: 50%;
+    height: 580px;
+    top: 100%;
+    background:url(../images/fish.png) repeat 0 0;
+}
+
+#fish-inverse {
+    background:url(../images/fish_inverse.png) repeat 0 0;
+}
+
+#birds, #birds-inverse {
+    display: block;
+    width: 45%;
+    height: 580px;
+    top: 100%;
+    background:url(../images/birds.png) repeat 0 0;
+}
+
+#birds-inverse {
+    background:url(../images/birds_inverse.png) repeat 0 0;
+}
+
+
+#verse21 {
+    width: 100%;
+    font-size: 12px;
+    color: #fff;
+    line-height: 1.5;
+    text-align: left;
+    background-color: #000;
+    padding: 10% 20% 2000px 20%;
+}
+
+#verse21 p {
+    width: 30%;
+}
+
+#verse22 {
+    font-size: 4em;
+    color: #fff;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+#verse23 {
+    width: 100%;
+    color: #fff;
+    padding-left: 20%;
+}
+
+#verse24, #verse26 {
+    color: #b4b4b4;
+}
+
+#crawlies {
+    width: 20%;
+    height: 650px;
+    background:url(../images/crawlies.png) repeat 0 0;
+}
+
+#lizard {
+    width: 6%;
+    height: 680px;
+    background:url(../images/lizard.png) repeat 0 0;
+}
+
+#frog {
+    width: 6%;
+    height: 485px;
+    background:url(../images/frog.png) repeat 0 0;
+}
+
+#cuiker {
+    width: 9%;
+    height: 620px;
+    background:url(../images/cuiker.png) repeat 0 0;
+}
+
+#cuiker-filled {
+    width: 50%;
+    height: 720px;
+    background:url(../images/cuiker-filled.png) repeat 0 0;
+}
+
+#tiger {
+    width: 9%;
+    height: 520px;
+    background:url(../images/tiger.png) repeat 0 0;
+}
+
+#tiger2 {
+    left: 2%;
+    width: 59%;
+    height: 710px;
+    background:url(../images/tiger2.png) repeat 0 0;
+}
+
+#bear {
+    width: 9%;
+    height: 620px;
+    background:url(../images/bear.png) repeat 0 0;
+}
+
+#creatures, #alongtheground, #wildanimals {
+    width: 50%;
+    text-align: left;
+    font-size: 125%;
+}
+
+#verse25 {
+    width: 30%;
+    left: 20%;
+    color: #a0a0a0;
+    line-height: 1.4;
+}
+
+#feet {
+    width: 50%;
+    height: 895px;
+    background:url(../images/feet.png) repeat 0 0;
+}
+
+#feet2 {
+    width: 100%;
+    height: 810px;
+    background:url(../images/feet2.png) repeat 0 0;
+}
+
+#verse26-pt2{
+    width: 100%;
+    height: auto;
+    top: 100%;
+    color: white;
+    font-weight: 300;
+    padding: 10% 0;
+
+}
+#verse26-pt2 p {
+    width: 20%;
+    font-size: 2em;
+    line-height: 1.5;
+}
+
+#verse27 {
+    font-size: 150%;
+    font-weight: 300;
+}
+
+#verse27 p {
+    width: 20%;
+}
+
+#dapple {
+    width: 50%;
+    height: 700px;
+    background:url(../images/dapple.png) repeat 0 0;
+}
+
+#verse28, #verse29 {
+    width: 30%;
+    left: 20%;
+    line-height: 2;
+    text-align: left;
+    font-size: 100%;
+}
+
+#verse28-pt2, #verse28-pt3, #verse28-pt4 {
+    width: 60%;
+    left: 20%;
+    color: #fff;
+    line-height: 2;
+    text-align: left;
+    font-size: 100%;
+}
+
+#verse28-pt2 {
+    left: 40%;
+}
+
+#verse28-pt3 {
+    left: 40%;
+}
+
+#verse28-pt4 {
+    left: 40%;
+    width: 40%;
+}
+
+#verse29-pt2, #verse30 {
+    width: 45%;
+    left: 30%;
+    font-size: 200%;
+    line-height: 1.5;
+    font-weight: 300;
+    color: #e1e1e1;
+}
+
+#verse31 {
+    text-align: center;
+    font-size: 200%;
+    line-height: 1.5;
+    font-weight: 300;
+}
+
+#verse31-pt2 {
+    width: 100%;
+    right: 20%;
+    text-align: right;
+}
+
+footer {
+    width: 100%;
+    height: 100%;
+    padding-top: 10%;
+    background-color: #fff;
+    color: #000;
+    opacity: .8;
+    line-height: 2;
+    text-align: center;
+    font-size: 80%;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: darkgoldenrod;
+}
