@@ -1,0 +1,35 @@
+@font-face {
+    font-family: Title;
+    src: url("../fonts/NoeDisplay-Bold.woff");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Small Title;
+    src: url("../fonts/Poppins-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: Quote;
+    src: url("../fonts/RobotoCondensed-Regular.ttf");
+}
+
+@font-face {
+    font-family: Body;
+    src: url("../fonts/Poppins-Regular.ttf");
+    font-weight: normal;
+}
+
+
+@font-face {
+    font-family: Heading;
+    src: url("../fonts/Poppins-SemiBold.ttf");
+    font-style: bold;
+}
+
+
+@font-face {
+    font-family: Body;
+    src: url("../fonts/Poppins-Italic.ttf");
+    font-style: italic;
+}

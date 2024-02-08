@@ -1,0 +1,154 @@
+@media screen and (max-width: 414px) {
+    
+    .content {
+        margin: 10% 4%;
+    }
+
+    /******************************************* menu stuff *******************************************/
+
+    #logo {
+        left: 10px;
+        top: 10px;
+        position: fixed;
+    }
+
+    .toggle-button {
+        display: block;
+        top: 12px;
+        right: 12px;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .slideout-nav {
+        display: block;
+    }
+
+    /************************************ content & text stuff **************************************/
+    /********index page********/
+    .intro-subline {
+        /*font-size: 4vw;*/
+    }
+
+    .names {
+        font-size: 14vw;
+    }
+
+    .bio, .resume, #contact {
+        width: 100%;
+    }
+
+    /******** portfolios ********/
+    .design-portfolio article {
+        height: 26vh; /*set height*/
+    }
+
+    .art-portfolio article, .misc-portfolio article {
+        height: 20vh; /*set height*/
+    }
+
+    .overlay-text {
+        left: 4%;
+        width: 92%;
+    }
+
+    /********case study content********/
+    .hero {
+        display: none;
+    }
+
+    .h2-section-wrapper {
+        margin-bottom: 2em;
+    }
+
+    hr {
+        margin: 1em 0 2em 0;
+    }
+
+    /*general text*/
+    h1 {
+        font-size: 2.5em;
+        width: 100%;
+    }
+
+    blockquote {
+        font-size: 1.75em;
+        line-height: 1.5em;
+    }
+
+    figcaption {
+        padding-top: 0;
+    }
+
+    .quote-wrapper {
+        margin: 1.5em 0;
+        padding-left: 1.75em;
+    }
+
+    .stat-wrapper {
+        margin: 1.5em 0;
+        padding-left: 1em;
+    }
+
+    footer {
+        margin-bottom: 4em;
+    }
+
+    /************************************ image stuff ************************************/
+
+    .h3-section img {
+        margin: 0 0 1em 0;
+    }
+
+    #second-img {
+        margin: 0;
+    }
+
+    .two-column img, .three-column img {
+        display: block;
+        width: 100%;
+        margin: 0 0 1em 0;
+    }
+
+    .four-column img {
+        /*display: block;*/
+        width: 48%;
+        margin: 0 .5% 1em .5%;
+    }
+
+    #last-img {
+        /*margin-bottom: .5em;*/
+    }
+
+    .img-caption {
+        margin-bottom: 1em;
+    }
+
+    /************************************ specific stuff ************************************/
+
+    /*polly*/
+    #pc-final {
+        width: 100%;
+    }
+
+    #polly-app {
+        width: 90%;
+        margin-top: 0;
+        margin-bottom: 2em;
+        float: none;
+        margin-left: 5%;
+    }
+
+    #polly-lofi, #polly-midfi, #polly-hifi {
+        width: 100%;
+    }
+
+    /*sketchbook*/
+    .sketchbook-left, .sketchbook-right {
+        display: inline-block;
+        width: 100%;
+    }
+
+}

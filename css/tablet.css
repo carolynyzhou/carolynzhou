@@ -1,0 +1,44 @@
+/*small desktop window*/
+
+@media screen and (max-width: 1024px) {
+
+    /*portfolios*/
+    .design-portfolio article {
+        height: 38vh; /*set height*/
+    }
+
+    .art-portfolio article, .misc-portfolio article {
+        height: 32vh; /*set height*/
+    }
+
+    /*home*/
+    .self {
+        margin-bottom: 2em;
+    }
+
+    .contactform {
+        width: 100%;
+    }
+
+    /*project page*/
+    .project {
+        margin-top: 12%;
+    }
+
+    /*make middle column (main writeup) wider*/
+    .right-content {
+        width: 60%;
+        margin: 0 0 0 20%;
+    }
+
+    /*portolfio content text*/
+    h1 {
+        font-size: 5em;
+        width: 100%;
+    }
+
+    .h2-section-wrapper {
+        margin-bottom: 4em;
+    }
+
+}

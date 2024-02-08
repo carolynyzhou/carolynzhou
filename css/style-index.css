@@ -1,0 +1,126 @@
+/************ DESIGN index page **********/
+
+/*design*/
+.apple {
+    background-image: url(../design/images/apple/hero.jpg);
+}
+
+.bibledojo {
+    background-image: url(../design/images/bibledojo/hero.png)
+}
+
+.pnc {
+    background-image: url(../design/images/pnc/hero.jpg);
+}
+
+.scripturelabs {
+    background-image: url(../design/images/scripturelabs/hero.jpg);
+}
+
+.basilweb {
+    background-image: url(../design/images/basilweb/hero.jpg);
+}
+
+/*art*/
+.drawing {
+    background-image: url(../art/images/drawing/landscape_pgh.jpg);
+}
+
+.graphic {
+    background-image: url(../art/images/album/hero.jpg);
+}
+
+.sketchbook {
+    background-image: url(../art/images/sketchbook/sketchbook.jpg);
+}
+
+/*misc*/
+.gen1 {
+    background-image: url(../misc/images/genesis1.png);
+}
+
+.clouds {
+    background-image: url(../misc/images/clouds/hero.jpg);
+}
+
+.website {
+    background-image: url(../misc/images/website/bg.jpg);
+}
+
+
+/*set heights*/
+.design-portfolio article {
+    height: 48vh; /*set height*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; /* Resize the background image to cover the entire container */
+    width: 100%;
+}
+
+.art-portfolio article, .misc-portfolio article {
+    height: 40vh; /*set height*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; /* Resize the background image to cover the entire container */
+    width: 100%;
+}
+
+
+/*shared properties*/
+.container {
+    height: 100%;
+}
+
+/*overlay*/
+.overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    transition: .25s ease;
+    background-color: #f8f8fa;
+}
+
+/*text*/
+.overlay-text {
+    text-align: left;
+    position: absolute;
+    width: 80%;
+    /*top: 10%;*/
+    left: 10%;
+    top: 55%;
+    transform: translateY(-50%);
+}
+
+.overlay-title {
+    /*color: #3c04dc;*/
+    margin-bottom: .2em;
+    /*font-size: 6em;*/
+    line-height: 1em;
+}
+
+.overlay-subtitle {
+    font-family: "Body", sans-serif;
+    color: #888;
+}
+
+.design-portfolio h1 {
+    color: #3c04dc;
+}
+
+.art-portfolio h1 {
+    color: #0038f2;
+}
+
+.misc-portfolio h1 {
+    color: #f51a4d;
+}
+
+/*hover over portfolio item*/
+.container:hover .overlay {
+    opacity: .5;
+}
+
+.container:hover .overlay-title, .container:hover .overlay-subtitle {
+    color: #333;
+}

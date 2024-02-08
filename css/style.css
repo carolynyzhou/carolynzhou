@@ -1,0 +1,618 @@
+/*********************** home page ************************/
+#intro {
+    /*height: 100vh;*/
+    position: sticky;
+    bottom: calc(50vh - 0vw);
+}
+
+.vert-center {
+    position: absolute;
+    margin-left: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 90%;
+}
+
+.intro {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+
+h1.intro {
+    margin: 0;
+}
+
+.intro .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+.intro-padding {
+    height: calc(80vh - 20vw + 60 * 80px);
+}
+
+.intro-subline {
+    font-size: 1.5em;
+    text-transform: none;
+}
+
+.names {
+    font-size: 12vw;
+    width: 100%;
+    height: 1.1em;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.names .carolyn, .names .creator, .names .designer, .names .artist {
+      position: absolute;
+}
+
+.names .carolyn span, .names .creator span, .names .designer span, .names .artist span {
+    display: inline-block;
+}
+
+/*names colors*/
+.carolyn {
+    color: #242424;
+}
+.designer, .design a {
+    color: #3c04dc;
+}
+.artist, .artwork a {
+    color: #0038f2;
+}
+.creative, .misc a {
+    color: #f51a4d;
+}
+
+.design a, .artwork a, .misc a {
+    border-bottom: none;
+}
+
+.see-more {
+    width: 50%;
+    font-size: 1.5vw;
+    height: 4em;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.see-more h3 {
+    color: #666;
+}
+
+.see-more .design, .see-more .artwork, .see-more .misc {
+    position: absolute;
+    /*opacity: hidden;*/
+}
+
+.see-more .design span, .see-more .artwork span, .see-more .misc span {
+    display: inline-block;
+    font-size: 1em;
+}
+
+.design, .misc, .artwork {
+    opacity: 0;
+}
+.design {
+    z-index: 3;
+}
+.artwork {
+    z-index: 2;
+}
+.misc {
+    z-index: 1;
+}
+
+.inline-menu {
+    font-family: 'Body', sans-serif;
+    font-size: .8em;
+    font-weight: 500;
+    padding-bottom: 3em;
+}
+
+.inline-menu a {
+    margin-right: 10px;
+    position: relative;
+}
+
+/*bottom half of the page (about, contact)*/
+#home-bottom {
+    background-color: #242424;
+    padding: 5em 10% 4em 10%;
+}
+
+/*about*/
+#about {
+    padding: 1em 0;
+}
+
+#about p, #about h3 {
+    color: white;
+}
+
+#about h2 {
+    color: #999;
+    margin-bottom: .5em;
+}
+
+#about a, #contact a {
+    padding-bottom: .1em;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+}
+
+#about a:hover {
+    color: #ccc;
+    border-bottom: 2px solid #ccc;
+}
+
+/*resume*/
+.resume {
+}
+
+.resume li {
+    margin-bottom: 2em;
+}
+
+.resume-h3 {
+    margin-bottom: .25em;
+    margin-top: 1em;
+    color: #b2b6bd;
+}
+
+.resume-dates { /*p*/
+    margin-bottom: 0em;
+}
+
+#experience {
+    margin-bottom: 2em;
+}
+
+#contact {
+    padding: 1em 0;
+}
+
+.social a {
+    border-bottom: none;
+}
+
+/**************************** structure *****************************/
+body {
+    text-rendering: optimizeLegibility;
+    background-color: #f8f8fa;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 40%;
+  margin-right: 9%;
+}
+
+.content {
+    display: block;
+    vertical-align: top;
+    margin: 5% 10%;
+    /*margin: 0;*/
+}
+
+.project {
+    margin-top: 8%;
+}
+
+.hero {
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/**************************** text stuff *****************************/
+/*general text styling*/
+h1 {
+    font-family: "Title", sans-serif;
+    font-size: 6em;
+    line-height: 1em;
+    letter-spacing: .01em;
+    color: #222;
+    margin-bottom: .75em;
+    width: 90%;
+}
+
+h2, .subheader-title  {
+    font-family: 'Small Title', sans-serif;
+    line-height: 1.5em;
+    font-size: 1.1em;
+}
+
+h2, .left-title h2, .subheader-title {
+    /*text-transform: uppercase;*/
+    margin: 0 0 1em 0;
+    color: #333;
+}
+
+.subheader {
+    padding-bottom: 1em;
+}
+
+.subheader-title /*i.e. "role"*/ {
+    margin-right: 1em;
+}
+
+.h2-section-wrapper {
+    margin-bottom: 3em;
+}
+
+/*paragraph title*/
+h3 {
+    font-family: 'Heading', sans-serif;
+    margin-bottom: 1em;
+    color: #aaa;
+}
+
+/*paragraph headed with h3 title*/
+.h3-section {
+    margin-bottom: 3em;
+}
+
+/*elements using GT Sectra*/
+ p, figcaption, ul, ol {
+    font-family: 'Body', sans-serif;
+    font-size: 1em;
+    position: relative;
+    vertical-align: baseline;
+    width: 100%;
+}
+
+p {
+    color: #333;
+    margin-bottom: 1em;
+    /*font-size: 1em;*/
+    line-height: 1.5em;
+}
+
+/*line height and font size*/
+/*p, ul {
+    font-size: 1em;
+    line-height: 1.4em;
+}*/
+
+.bigger { /*larger text paragrphs*/
+    font-family: 'Body', sans-serif;
+    font-size: 1.5em;
+    line-height: 1.4em;
+}
+
+footer {
+    font-family: 'Body', sans-serif;
+    font-size: .9em;
+}
+
+/*link behavior*/
+a {
+    text-decoration: none;
+    color:#666;
+    border-bottom: 1px solid #666;
+    cursor: pointer;
+    transition: all 50ms ease-out;
+}
+
+a:hover {
+    color:#aaa;
+    border-bottom: 1px solid #aaa;
+}
+
+
+/*lists*/
+ul, ol {
+    display: block;
+    list-style-type: none;
+    vertical-align: baseline;
+    line-height: 1.5em;
+    color: #333;
+}
+
+.bullet-list {
+    list-style-type: disc;
+    margin-bottom: 1.2em;
+}
+
+.number-list {
+    list-style-type: decimal;
+    margin-bottom: 1.2em;
+}
+
+#bullet, #numbered {
+    margin-left: 1em;
+    margin-bottom: .25em;
+}
+
+.bold {
+    font-weight: 500;
+}
+
+br {
+    line-height: 1.5em;
+}
+
+hr {
+    margin: 3em 0;
+    border-color: #eee;
+}
+
+.social {
+    font-family: 'Body', sans-serif;
+    font-size: 1em;
+    line-height: 1.1em;
+}
+
+.social h2 {
+    color: #666;
+}
+
+.social a {
+    margin-right: 20px;
+}
+
+/**************************** project page content stuff *****************************/
+
+.left-title {
+    display: inline-block;
+    width: 20%;
+    float: left;
+}
+
+.right-content {
+    width: 50%; /*total of page width is 1/2 with 1/4 margins*/
+    margin: 0 0 0 25%;
+}
+
+.left-column {
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 1em;
+}
+
+.right-column {
+    width: 45%;
+    display: inline-block;
+    margin-left: 8%;
+    vertical-align: top;
+    margin-bottom: 1em;
+}
+
+
+figcaption {
+    font-family: "Body", sans-serif;
+    font-style: italic;
+    font-size: 1em;
+    line-height: 1.5em;
+    color: #666;
+    padding-top: .5em;
+}
+
+blockquote {
+    font-family: "Quote", sans-serif;
+    letter-spacing: -.01em;
+    font-size: 2.5em;
+    color: #333;
+    line-height: 1.2em;
+}
+
+blockquote:before {
+    content: '“';
+    position: absolute;
+    margin-left: -.4em;
+}
+
+blockquote:after {
+    content: '”';
+}
+
+.quote-wrapper {
+    margin: 2em 0 4em 0;
+    border-left: 3px solid #333;
+    padding-left: 3em;
+}
+
+.quote-wrapper figcaption {
+    font-style: normal;
+    padding-top: 1em;
+}
+
+.stat-wrapper {
+    margin: 2em 0 3em 0;
+    border-left: 3px solid #363636;
+    padding-left: 2em;
+}
+
+.statistic {
+    margin-bottom: 0;
+}
+
+.stat-emphasis {
+    font-weight: 500; 
+    font-style: italic;
+    color: #333;
+}
+
+/*carousel*/
+.container {
+    position: relative;
+}
+
+.mySlides {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#carousel-img {
+    margin-bottom: 0;
+}
+
+.carousel-button {
+    background-color: #eee;
+    border: none;
+    color: #333;
+    padding: 2em 1em;
+    text-align: center;
+    display: inline-block;
+    font-size: 1em;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: .5;
+    transition: .25s ease;
+}
+
+.container:hover .carousel-button {
+    opacity: 1;
+}
+
+.carousel-display-right {
+    right: 0;
+}
+
+/**************************** image stuff *****************************/
+
+img {
+    width: 100%;
+}
+
+/*full image in body column*/
+.big-image {
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 3em;
+}
+
+/*image in right content side only*/
+.h3-section img {
+    width: 100%;
+    margin: 0 0 1.75em 0;
+}
+
+/*multi-image columns*/
+.two-column img {
+    display: inline-block;
+    width: 48%;
+}
+
+.last-img {
+    float: right;
+}
+
+.three-column img {
+    display: inline-block;
+    width: 31.5%;
+    margin: 0 .5% 1.75em .5%;
+    vertical-align: top;
+}
+
+.four-column img {
+    display: inline-block;
+    width: 23%;
+    margin: 0 .5% 1.75em .5%;
+    vertical-align: top;
+}
+
+/*image caption*/
+.img-caption img {
+    margin-bottom: 0;
+}
+
+.img-caption {
+    margin-bottom: 2em;
+}
+
+.dropshadow {
+    box-shadow: 0 1px 2px #ccc;
+}
+
+/**************************** video iframe *****************************/
+.video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+    /*added by me*/
+    margin-bottom: 3em;/*
+    width: 80%;
+    margin-left: 10%;*/
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/****************************page-specific stuff*****************************/
+
+/*sketchbook "masonry"*/
+.sketchbook-left, .sketchbook-right {
+    display: inline-block;
+    width: 49%;
+}
+
+.sketchbook-left {
+    float: left;
+}
+
+.sketchbook-right {
+    float: right;
+}
+
+.sketchbook-left img, .sketchbook-right img {
+    margin-bottom: 3%;
+}
+
+/*polly*/
+.pocket-course-cards {
+    box-shadow: 0 2px 6px #ccc;
+    border-radius: 10px;
+}
+
+#pc-final {
+    width: 60%;
+}
+
+#polly-app {
+    width: 35%;
+    float: right;
+}
+
+/*commissions*/
+.commission-content {
+    width: 75%; /*total of page width is 1/2 with 1/4 margins*/
+    margin: 0 0 2em 25%;
+}
+
+.commission-content img {
+    margin: 0 0 1.75em 0;
+}
+
+.commission-cta {
+    font-size: 2em;
+    width: 60%;
+}
